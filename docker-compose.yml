@@ -4,6 +4,8 @@ services:
   mongo:
     restart: 'no'
     image: mongo:4.0.12
+#    volumes:
+#      - ./mongo-data:/data/db
 
   mgcli:
     restart: 'no'

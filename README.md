@@ -1,5 +1,5 @@
-Cours de NoSQL sur Redis
-========================
+Cours de NoSQL sur MongoDB
+==========================
 
 Ce dépôt contient du contenu déstiné à une utilisation pédagogique auprès des étudiants de seconde année du département informatique de l'IUT d'Amiens suivant le parcours orienté en bases de données.
 

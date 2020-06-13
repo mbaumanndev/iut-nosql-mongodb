@@ -5,10 +5,8 @@ services:
     restart: 'no'
     image: mongo:4.2.0
     command: --serviceExecutor adaptive
-#    volumes:
-#      - type: bind
-#        source: ./mongo-data
-#        target: /data/db
+    volumes:
+      - mongodata:/data/db
 
   mgcli:
     restart: 'no'
@@ -25,3 +23,6 @@ services:
       - 8081:8081
     depends_on:
       - mongo
+
+volumes:
+  mongodata:
